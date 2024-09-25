@@ -3,6 +3,7 @@
 int main() {
     float peso, altura, imc;
 
+    //Hola como estan
     printf("Ingrese su peso en kilogramos: ");
     scanf("%f", &peso);
 
