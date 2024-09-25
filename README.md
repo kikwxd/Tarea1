@@ -11,6 +11,10 @@ int main() {
     scanf("%f", &altura);
     
     imc = peso / (altura * altura);
+    if (imc > 30)
+    {
+        // sentencia :D
+    }
     printf("Su índice de masa corporal (IMC) es: %.2f\n", imc);
 
     return 0;
